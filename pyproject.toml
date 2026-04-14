@@ -1,0 +1,52 @@
+[project]
+name = "plant_point_cloud"
+version = "0.1.0"
+description = "3d plant pointcloud as interactive generative art"
+authors = [
+    { name="Samikshya Gyawali", email=""},
+    { name="Nicolas Kruppa", email = ""},
+    { name="Klara Brinkmann", email = ""},
+    { name="Graziella D'Auria", email =""},
+    { name="Anish Shahi", email= ""}
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENCE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = "==3.12.12"
+dependencies = [
+    "open3d>=0.19.0",
+    "pytest>=9.0.1",
+    "ruff>=0.14.5",
+    "depthai==2.30.0.0",
+    "mediapipe>=0.10.14",
+    "numpy>=2.2.6",
+    "opencv-python>=4.12.0.88",
+    "python-osc>=1.9.3",
+]
+
+[project.urls]
+Homepage = "https://git.rwth-aachen.de/pcl-group/3d-plant-pointclouds-as-interactive-generative-art"
+Issues = "https://git.rwth-aachen.de/pcl-group/3d-plant-pointclouds-as-interactive-generative-art/-/issues"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "D",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"

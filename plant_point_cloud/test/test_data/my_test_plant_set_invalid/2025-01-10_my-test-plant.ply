@@ -1,0 +1,18 @@
+ply
+format ascii 1.0
+comment Simple test file for unit tests
+obj_info Generated for unit tests
+element vertex 120930
+property float x
+property float y
+property float z
+property uchar red
+property uchar green
+property uchar blue
+property float scalar_label
+end_header
+13.664790 -3.181400 245.070908 133 152 77 0.000000
+7.298090 -2.842320 241.008926 106 114 79 0.000000
+6.881960 -2.603690 241.109497 119 133 103 0.000000
+12.704320 -3.359000 244.343323 164 173 129 0.000000
+4.942930 -2.520650 243.988266 154 161 135 0.000000
